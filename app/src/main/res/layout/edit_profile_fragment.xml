@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/profile_details_layout"
+        android:layout_width="match_parent"
+        android:background="#424242"
+        android:layout_height="520dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/first_name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/first_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:hint="First Name"
+            android:textColorHint="@color/WhiteSmoke"
+            android:backgroundTint="@color/WhiteSmoke"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+             </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/age_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_below="@+id/sex_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp">
+
+            <EditText
+                android:id="@+id/age_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:hint="Age"
+                android:textColorHint="@color/WhiteSmoke"
+                android:backgroundTint="@color/WhiteSmoke"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+             </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/last_name_layot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/first_name_layout"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:id="@+id/last_name_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:hint="Last Name"
+                android:textColorHint="@color/WhiteSmoke"
+                android:backgroundTint="@color/WhiteSmoke"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+             </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/sex_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/last_name_layot"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:id="@+id/sex_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_below="@+id/last_name_layot"
+                android:layout_centerHorizontal="true"
+                android:textColorHint="@color/WhiteSmoke"
+                android:backgroundTint="@color/WhiteSmoke"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:hint="Sex" />
+
+             </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/age_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/rounded_button_green"
+            android:text="Save" />
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

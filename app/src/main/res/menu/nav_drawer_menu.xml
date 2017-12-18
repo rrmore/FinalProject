@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile_item"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            app:itemIconTint="@color/project_orange"
+            android:title="Profile"
+            android:textColor="@color/WhiteSmoke"/>
+        <item
+            android:id="@+id/gym_plan_item"
+            android:icon="@drawable/gym_plan"
+            app:itemIconTint="@color/project_orange"
+            android:title="Gym Plan"/>
+        <item
+            android:id="@+id/routine_tracker_item"
+            android:icon="@drawable/routine_tracker"
+            app:itemIconTint="@color/project_orange"
+            android:title="Routine Tracker"/>
+
+        <item
+            android:id="@+id/dashboard_item"
+            android:icon="@drawable/dashboard"
+            app:itemIconTint="@color/project_orange"
+            android:title="My Dashboard"/>
+
+        <item
+            android:id="@+id/maps_item"
+            android:icon="@drawable/find_gyms"
+            app:itemIconTint="@color/project_orange"
+            android:title="Find Gyms"/>
+
+        <item
+            android:id="@+id/sign_out_item"
+            app:itemIconTint="@color/project_orange"
+            android:icon="@drawable/sign_out"
+            android:title="Sign out"/>
+
+    </group>
+
+</menu>

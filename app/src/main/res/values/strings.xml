@@ -1,0 +1,13 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_name">FinalProject</string>
+    <string name="shortis">FinalProject</string>
+    <string name="longis">FinalProject</string>
+    <string name="disable">FinalProject</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nearby_gyms">Nearby Gyms</string>
+    <string name="gym_plan_shortcut_short_label">My Gym Plan</string>
+    <string name="gym_plan_shortcut_long_label">My Gym Plan</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/project_black">
+
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius ="0dp"
+        app:cardElevation ="0dp"
+        app:cardUseCompatPadding ="true"
+        app:paddingStart="10dp"
+        app:paddingEnd="10dp"
+        android:layout_width ="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height ="wrap_content"
+        android:background="@color/project_green">
+
+                <LinearLayout
+                    android:orientation ="horizontal"
+                    android:layout_width ="match_parent"
+                    android:layout_height ="match_parent"
+                    android:id="@+id/linearlayout5"
+                    android:background="@color/project_black">
+
+                    <CheckBox
+                        android:id="@+id/checkBox_item"
+                        android:layout_width="37dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/project_black"/>
+
+                    <TextView
+                        android:id="@+id/exercise_name_item"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/WhiteSmoke"/>
+
+                </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

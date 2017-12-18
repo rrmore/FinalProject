@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/profile_details_layout"
+        android:layout_width="match_parent"
+        android:background="#424242"
+        android:layout_height="520dp">
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/age_text"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_alignTop="@+id/sex_text"
+            app:srcCompat="@drawable/ic_arrow_right_bold_circle"
+            android:tint="@color/project_orange" />
+
+        <TextView
+            android:id="@+id/first_name_text"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="60dp"
+            android:text=""
+            android:textColor="@color/WhiteSmoke"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:layout_toEndOf="@+id/imageView3" />
+
+        <TextView
+            android:id="@+id/last_name_text"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/first_name_text"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/WhiteSmoke"
+            android:text=""
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:layout_toEndOf="@+id/imageView4"/>
+
+        <TextView
+            android:id="@+id/sex_text"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/WhiteSmoke"
+            android:text=""
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:layout_below="@+id/last_name_text"
+            android:layout_toEndOf="@+id/imageView7" />
+
+        <TextView
+            android:id="@+id/age_text"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="31dp"
+            android:textColor="@color/WhiteSmoke"
+            android:text=""
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:layout_below="@+id/sex_text"
+            android:layout_toEndOf="@+id/imageView5" />
+
+        <Button
+            android:id="@+id/edit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/age_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/roundedbutton"
+            android:textColor="@color/WhiteSmoke"
+            android:text="Edit" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_arrow_right_bold_circle"
+            android:tint="@color/project_orange"
+            android:layout_alignTop="@+id/first_name_text"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_above="@+id/last_name_text" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView3"
+            android:layout_alignParentStart="true"
+            android:tint="@color/project_orange"
+            android:layout_alignTop="@+id/last_name_text"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/ic_arrow_right_bold_circle"
+            android:layout_above="@+id/sex_text"
+            android:layout_alignEnd="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_arrow_right_bold_circle"
+            android:tint="@color/project_orange"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_alignBottom="@+id/age_text"
+            android:layout_alignTop="@+id/age_text"
+            android:layout_alignEnd="@+id/imageView7" />
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

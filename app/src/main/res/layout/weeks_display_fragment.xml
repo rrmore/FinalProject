@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/project_black">
+
+    <Button
+        android:id="@+id/monday"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:background="@drawable/rounded_button_green"
+        android:text="Monday" />
+
+    <Button
+        android:id="@+id/tuesday"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/monday"
+        android:layout_below="@+id/monday"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_button_green"
+        android:text="Tuesday" />
+
+    <Button
+        android:id="@+id/wednesday"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tuesday"
+        android:layout_below="@+id/tuesday"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_button_green"
+        android:text="Wednesday" />
+
+    <Button
+        android:id="@+id/thursday"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wednesday"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_button_green"
+        android:text="Thursday" />
+
+    <Button
+        android:id="@+id/friday"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thursday"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_button_green"
+        android:text="Friday" />
+</RelativeLayout>
